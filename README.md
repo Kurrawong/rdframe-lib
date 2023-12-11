@@ -1,4 +1,4 @@
-# RDFrame | [SHACL profiles](/shacl) | [CQL profiles](/cql)
+# RDFrame-lib
 
 ## About
 
@@ -34,7 +34,13 @@ This library serves two purposes.
 
 ### CQL version
 
-Description forthcoming - available at `/cql`
+Parses CQL JSON into JSON LD and extracts the following:
+- Comparison operators (<, >, = etc.)
+- Or and and conditions
+- Some spatial functions
+- Property filters.
+
+A full CQL implementation has not yet been completed.
 
 ## Patterns to address common use cases
 
