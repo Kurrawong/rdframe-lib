@@ -175,8 +175,9 @@ class SHACLParser:
         # sh:target / sh:select
         if target_bn:
             ggp = self.create_select_subquery_from_template(target_bn)
-            self._add_target_class(target_classes[0])
             self._add_ggp_to_main_ggps(ggp)
+            if target_classes:
+                self._add_target_class(target_classes[0])
 
         # don't use the target class if there's a sh:target / sh:select #TODO confirm why this caused issues - duplicate
         #  pattern matches in the subquery?
