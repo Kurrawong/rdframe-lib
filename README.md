@@ -1,3 +1,7 @@
+# Deprecated
+
+**Please use https://github.com/Kurrawong/sparql-grammar-pydantic**
+
 # RDFrame-lib
 
 ## About
